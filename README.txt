@@ -1,4 +1,4 @@
-This repository provide samples for GY-80 sensor which is comopsed of :
+This repository provide samples for GY-80 sensor which is composed of :
 - adxl345 (accelerometer)
 - BMP085 (pressure & temperature)
 - HMC5883 (magnetometer)
