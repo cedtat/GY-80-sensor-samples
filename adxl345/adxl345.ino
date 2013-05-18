@@ -80,7 +80,7 @@ void loop()
   Xg=X_out/256.0;
   Yg=Y_out/256.0;
   Zg=Z_out/256.0;
-  Serial.print("X= ");
+  /*Serial.print("X= ");
   Serial.print(Xg);
   Serial.print("       ");
   Serial.print("Y= ");
@@ -89,5 +89,7 @@ void loop()
   Serial.print("Z= ");
   Serial.print(Zg);
   Serial.println("  ");
+  delay(200);*/
+  Serial.print(Xg);
   delay(200);
 }
