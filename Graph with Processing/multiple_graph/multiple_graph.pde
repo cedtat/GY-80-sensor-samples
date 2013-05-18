@@ -14,8 +14,8 @@ import processing.serial.*;
  
  Serial myPort;        // The serial port
  int xPos = 1;         // horizontal position of the graph
- int minValue = -2;   // Choose min value received through serial port
- int maxValue = 2;   // Choose max value received through serial port
+ int minValue = 230;   // Choose min value received through serial port
+ int maxValue = 282;   // Choose max value received through serial port
  
  void setup () {
  // set the window size:
